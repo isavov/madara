@@ -1,0 +1,273 @@
+{
+  "users": 5,
+  "all_bench_report": {
+    "amount": 2000,
+    "metrics": [
+      {
+        "name": "Average TPS",
+        "unit": "transactions/second",
+        "value": 33.333333333333336
+      },
+      {
+        "name": "Average Extrinsics per block",
+        "unit": "extrinsics/block",
+        "value": 200.0
+      },
+      {
+        "name": "Average UOPS",
+        "unit": "operations/second",
+        "value": 111.11111111111111
+      },
+      {
+        "name": "Average Steps Per Second",
+        "unit": "operations/second",
+        "value": 0.0
+      }
+    ]
+  },
+  "benches": [
+    {
+      "name": "Erc20 Transfers",
+      "amount": 1000,
+      "metrics": [
+        {
+          "name": "Average TPS",
+          "unit": "transactions/second",
+          "value": 65.83333333333333
+        },
+        {
+          "name": "Average Extrinsics per block",
+          "unit": "extrinsics/block",
+          "value": 395.0
+        },
+        {
+          "name": "Average UOPS",
+          "unit": "operations/second",
+          "value": 65.83333333333333
+        },
+        {
+          "name": "Average Steps Per Second",
+          "unit": "operations/second",
+          "value": 0.0
+        },
+        {
+          "name": "Total Submission Time",
+          "unit": "milliseconds",
+          "value": 10701
+        },
+        {
+          "name": "Total Verification Time",
+          "unit": "milliseconds",
+          "value": 15246
+        },
+        {
+          "name": "Failed Transactions Verifications",
+          "unit": "",
+          "value": 0
+        },
+        {
+          "name": "Failed Transaction Submissions",
+          "unit": "",
+          "value": 0
+        },
+        {
+          "name": "Max Submission Time",
+          "unit": "milliseconds",
+          "value": 54
+        },
+        {
+          "name": "Min Submission Time",
+          "unit": "milliseconds",
+          "value": 2
+        },
+        {
+          "name": "Average Submission Time",
+          "unit": "milliseconds",
+          "value": 10.701
+        },
+        {
+          "name": "Max Verification Time",
+          "unit": "milliseconds",
+          "value": 25
+        },
+        {
+          "name": "Min Verification Time",
+          "unit": "milliseconds",
+          "value": 1
+        },
+        {
+          "name": "Average Verification Time",
+          "unit": "milliseconds",
+          "value": 7.602
+        },
+        {
+          "name": "P90 Submission Time",
+          "unit": "milliseconds",
+          "value": 15
+        },
+        {
+          "name": "P50 Submission Time",
+          "unit": "milliseconds",
+          "value": 12
+        },
+        {
+          "name": "P90 Verification Time",
+          "unit": "milliseconds",
+          "value": 14
+        },
+        {
+          "name": "P50 Verification Time",
+          "unit": "milliseconds",
+          "value": 6
+        }
+      ],
+      "last_x_blocks_metrics": {
+        "num_blocks": 4,
+        "metrics": [
+          {
+            "name": "Average TPS",
+            "unit": "transactions/second",
+            "value": 33.333333333333336
+          },
+          {
+            "name": "Average Extrinsics per block",
+            "unit": "extrinsics/block",
+            "value": 200.0
+          },
+          {
+            "name": "Average UOPS",
+            "unit": "operations/second",
+            "value": 55.55555555555556
+          },
+          {
+            "name": "Average Steps Per Second",
+            "unit": "operations/second",
+            "value": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Erc721 Mints",
+      "amount": 1000,
+      "metrics": [
+        {
+          "name": "Average TPS",
+          "unit": "transactions/second",
+          "value": 69.75
+        },
+        {
+          "name": "Average Extrinsics per block",
+          "unit": "extrinsics/block",
+          "value": 418.5
+        },
+        {
+          "name": "Average UOPS",
+          "unit": "operations/second",
+          "value": 70.83333333333333
+        },
+        {
+          "name": "Average Steps Per Second",
+          "unit": "operations/second",
+          "value": 0.0
+        },
+        {
+          "name": "Total Submission Time",
+          "unit": "milliseconds",
+          "value": 8831
+        },
+        {
+          "name": "Total Verification Time",
+          "unit": "milliseconds",
+          "value": 16162
+        },
+        {
+          "name": "Failed Transactions Verifications",
+          "unit": "",
+          "value": 0
+        },
+        {
+          "name": "Failed Transaction Submissions",
+          "unit": "",
+          "value": 0
+        },
+        {
+          "name": "Max Submission Time",
+          "unit": "milliseconds",
+          "value": 36
+        },
+        {
+          "name": "Min Submission Time",
+          "unit": "milliseconds",
+          "value": 1
+        },
+        {
+          "name": "Average Submission Time",
+          "unit": "milliseconds",
+          "value": 8.831
+        },
+        {
+          "name": "Max Verification Time",
+          "unit": "milliseconds",
+          "value": 21
+        },
+        {
+          "name": "Min Verification Time",
+          "unit": "milliseconds",
+          "value": 2
+        },
+        {
+          "name": "Average Verification Time",
+          "unit": "milliseconds",
+          "value": 8.607
+        },
+        {
+          "name": "P90 Submission Time",
+          "unit": "milliseconds",
+          "value": 12
+        },
+        {
+          "name": "P50 Submission Time",
+          "unit": "milliseconds",
+          "value": 11
+        },
+        {
+          "name": "P90 Verification Time",
+          "unit": "milliseconds",
+          "value": 14
+        },
+        {
+          "name": "P50 Verification Time",
+          "unit": "milliseconds",
+          "value": 7
+        }
+      ],
+      "last_x_blocks_metrics": {
+        "num_blocks": 4,
+        "metrics": [
+          {
+            "name": "Average TPS",
+            "unit": "transactions/second",
+            "value": 33.333333333333336
+          },
+          {
+            "name": "Average Extrinsics per block",
+            "unit": "extrinsics/block",
+            "value": 200.0
+          },
+          {
+            "name": "Average UOPS",
+            "unit": "operations/second",
+            "value": 55.55555555555556
+          },
+          {
+            "name": "Average Steps Per Second",
+            "unit": "operations/second",
+            "value": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "extra": "CPU Count: 8\nCPU Model: \nCPU Speed (MHz): 0\nTotal Memory: 16 GB\nPlatform: MacOS 14.3\nRelease: 23.3.0\nArchitecture: aarch64"
+}
