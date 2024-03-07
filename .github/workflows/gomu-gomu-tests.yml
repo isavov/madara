@@ -57,13 +57,13 @@ jobs:
         run: |
           set -v -x +e
           cd ../madara
-          jq \ 
-          '.benches[] |= (.name as $benchName | .metrics[] |= (.name = .name + " ("+ $benchName + ")")) # Append benchmark name to each metric name
+          jq ' 
+          .benches[] |= (.name as $benchName | .metrics[] |= (.name = .name + " ("+ $benchName + ")")) # Append benchmark name to each metric name
           | .benches[].metrics[].extra = .extra # set extra field for each metric
           |.benches # extract only benches
           |map(.metrics)|add # merge metrics from different benches
-          |map(select(.name | test("Average TPS|Average UOPS|Average Extrinsics|Average Steps"))) #filter only the metrics we want' \
-          report.json
+          |map(select(.name | test("Average TPS|Average UOPS|Average Extrinsics|Average Steps"))) #filter only the metrics we want
+          ' report.json
 
       - name: Upload madara logs
         uses: actions/upload-artifact@v2
