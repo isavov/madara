@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1709809698921,
+  "lastUpdate": 1709809874566,
   "repoUrl": "https://github.com/isavov/madara",
   "entries": {
     "Benchmark": [
@@ -72,6 +72,52 @@ window.BENCHMARK_DATA = {
           {
             "name": "Failed Transactions Verifications (Erc20 Transfers)",
             "value": 0,
+            "unit": "",
+            "extra": "CPU Count: 8\nCPU Model: \nCPU Speed (MHz): 0\nTotal Memory: 16 GB\nPlatform: MacOS 14.3\nRelease: 23.3.0\nArchitecture: aarch64"
+          },
+          {
+            "name": "Failed Transaction Submissions (Erc20 Transfers)",
+            "value": 0,
+            "unit": "",
+            "extra": "CPU Count: 8\nCPU Model: \nCPU Speed (MHz): 0\nTotal Memory: 16 GB\nPlatform: MacOS 14.3\nRelease: 23.3.0\nArchitecture: aarch64"
+          },
+          {
+            "name": "Failed Transactions Verifications (Erc721 Mints)",
+            "value": 0,
+            "unit": "",
+            "extra": "CPU Count: 8\nCPU Model: \nCPU Speed (MHz): 0\nTotal Memory: 16 GB\nPlatform: MacOS 14.3\nRelease: 23.3.0\nArchitecture: aarch64"
+          },
+          {
+            "name": "Failed Transaction Submissions (Erc721 Mints)",
+            "value": 0,
+            "unit": "",
+            "extra": "CPU Count: 8\nCPU Model: \nCPU Speed (MHz): 0\nTotal Memory: 16 GB\nPlatform: MacOS 14.3\nRelease: 23.3.0\nArchitecture: aarch64"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Iliya Savov",
+            "username": "isavov",
+            "email": "isavov@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "Iliya Savov",
+            "username": "isavov",
+            "email": "isavov@users.noreply.github.com"
+          },
+          "id": "28a333765f9e73793588030bcf5cd950eb17e8c4",
+          "message": "x: DELETE ME test data update\n\nSigned-off-by: Iliya Savov <isavov@users.noreply.github.com>",
+          "timestamp": "2024-03-07T11:10:33Z",
+          "url": "https://github.com/isavov/madara/commit/28a333765f9e73793588030bcf5cd950eb17e8c4"
+        },
+        "date": 1709809873945,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Failed Transactions Verifications (Erc20 Transfers)",
+            "value": 1,
             "unit": "",
             "extra": "CPU Count: 8\nCPU Model: \nCPU Speed (MHz): 0\nTotal Memory: 16 GB\nPlatform: MacOS 14.3\nRelease: 23.3.0\nArchitecture: aarch64"
           },
