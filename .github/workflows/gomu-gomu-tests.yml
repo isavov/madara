@@ -73,7 +73,7 @@ jobs:
           alert-threshold: "120%"
           github-token: ${{ secrets.GITHUB_TOKEN }}
           fail-on-alert: true
-          summary-always: ${{ github.ref == 'refs/heads/main' }}
+          summary-always: true
           comment-always: false
           comment-on-alert: false
           auto-push: ${{ github.ref == 'refs/heads/main' }}
