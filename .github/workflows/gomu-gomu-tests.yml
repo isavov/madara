@@ -63,7 +63,20 @@ jobs:
           |.benches # extract only benches
           |map(.metrics)|add # merge metrics from different benches
           |map(select(.name | test("Average TPS|Average UOPS|Average Extrinsics|Average Steps"))) #filter only the metrics we want
-          ' report.json
+          ' report.json > processed_report.json
+
+      - name: Compare result
+        uses: benchmark-action/github-action-benchmark@v1
+        with:
+          tool: "customBiggerIsBetter"
+          output-file-path: ./processed_report.json
+          alert-threshold: "120%"
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          fail-on-alert: true
+          summary-always: ${{ github.ref == 'refs/heads/main' }}
+          comment-always: false
+          comment-on-alert: false
+          auto-push: ${{ github.ref == 'refs/heads/main' }}
 
       - name: Upload madara logs
         uses: actions/upload-artifact@v2
