@@ -63,7 +63,7 @@
         {
           "name": "Failed Transactions Verifications",
           "unit": "",
-          "value": 0
+          "value": 1
         },
         {
           "name": "Failed Transaction Submissions",
