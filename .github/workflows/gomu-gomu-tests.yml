@@ -76,7 +76,7 @@ jobs:
           summary-always: true
           comment-always: false
           comment-on-alert: false
-          auto-push: ${{ github.ref == 'refs/heads/main' }}
+          auto-push: true
 
       - name: Upload madara logs
         uses: actions/upload-artifact@v2
